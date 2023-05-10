@@ -1,7 +1,7 @@
 #Importing the required package
 import psycopg2
 
-Jk = psycopg2.connect(user='postgres', password='Jaya@9698', host='localhost', port=5432, database='ATM_withdraw')
+Jk = psycopg2.connect(user='postgres', password='*********', host='localhost', port=5432, database='ATM_withdraw')
 x = Jk.cursor()
 
 
